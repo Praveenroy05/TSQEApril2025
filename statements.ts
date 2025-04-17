@@ -43,6 +43,93 @@ if(a2 ==="JS"){
 }
 
 
+// 3. if else if else statement
+// Defintion:
+// if condition is true then execute the code inside if block otherwise check the else if condition if it is true then execute the code inside else if block otherwise execute the code inside else block.
+
+// Syntax:-
+/*
+if(condition1){
+// code
+}else if(condition2){
+ //code
+}else if(condition3){
+// code
+}else{
+// code
+}
+
+*/
+
+
+let browser  = "opera"
+
+if(browser === "chrome"){ // if("opera" === "chrome")
+    console.log("browser is chrome");
+}
+else if(browser ==="firefox"){
+    console.log("browser is firefox");
+}
+else if(browser === "safari"){
+    console.log("browser is safari");
+}
+else{
+    console.log("browser is not supported");
+}
+
+
+// Ranges (>=90) - marks >=80 && markes <90 - grade B
+// Data type are different
+// Logical Operator (&& ||)
+
+console.log("************************************");
+
+// 4. switch statement
+// Definition:
+// switch statement is used to execute the code based on the value of the variable.
+
+// Syntax:-
+/*
+
+switch(expression){ // switch(browser)
+case value1:
+    // code
+    break; // mandatory
+case value2:
+    // code
+    break;
+case value3:
+    // code
+    break;
+default:
+    // code
+    break;
+}
+
+
+*/
+
+
+
+let browserName :string = "safari"
+
+switch(browserName){ // switch("chrome")
+    case "chrome":
+        console.log("browser is chrome");
+        break;
+    case "firefox":
+        console.log("browser is firefox");
+        break;
+    case "safari":
+        console.log("browser is safari");
+        break;
+    default:
+        console.log("browser is not supported");
+        break;
+}
+
+
+
 
 
 
