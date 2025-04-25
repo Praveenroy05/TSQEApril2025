@@ -23,7 +23,7 @@ console.log("**********************");
 // Syntax
 
 /*
-for(initialization, condition; increment/decrement){
+for(initialization; condition; increment/decrement){
 // code
  break;
 }
